@@ -7,7 +7,6 @@ class QuestionsController < ApplicationController
   end
 
   private
-
   def coach_answer(question)
     if question.downcase == "i am going to work right now!"
       ''
